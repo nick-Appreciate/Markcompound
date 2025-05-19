@@ -6,8 +6,7 @@ import {
   TextField, 
   Paper, 
   Container,
-  InputAdornment,
-  Stack
+  InputAdornment
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Line } from 'react-chartjs-2';
