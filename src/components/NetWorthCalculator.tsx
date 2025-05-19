@@ -83,7 +83,7 @@ const SummaryItem = styled(Box)(({ theme }) => ({
 const NetWorthCalculator: React.FC = () => {
   const [inputs, setInputs] = useState<CalculatorInputs>({
     startAge: 25,
-    endAge: 65,
+    endAge: 58,
     annualContribution: 10000,
     interestRate: 7
   });

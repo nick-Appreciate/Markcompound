@@ -100,7 +100,7 @@ const QuadrantNetWorthCalculator: React.FC = () => {
       name: 'Shale',
       inputs: {
         startAge: 25,
-        endAge: 65,
+        endAge: 58,
         annualContribution: 10000,
         interestRate: 7
       },
@@ -113,7 +113,7 @@ const QuadrantNetWorthCalculator: React.FC = () => {
       name: 'Luke',
       inputs: {
         startAge: 30,
-        endAge: 70,
+        endAge: 58,
         annualContribution: 12000,
         interestRate: 6.5
       },
@@ -126,7 +126,7 @@ const QuadrantNetWorthCalculator: React.FC = () => {
       name: 'Vaughan',
       inputs: {
         startAge: 22,
-        endAge: 62,
+        endAge: 58,
         annualContribution: 8000,
         interestRate: 7.5
       },
@@ -139,7 +139,7 @@ const QuadrantNetWorthCalculator: React.FC = () => {
       name: 'Jake',
       inputs: {
         startAge: 28,
-        endAge: 68,
+        endAge: 58,
         annualContribution: 15000,
         interestRate: 6
       },
