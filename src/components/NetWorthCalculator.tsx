@@ -237,7 +237,7 @@ const NetWorthCalculator: React.FC = () => {
             </Typography>
             <Slider
               value={inputs.endAge}
-              min={inputs.startAge + 1}
+              min={inputs.startAge}
               max={80}
               step={1}
               onChange={(_, value) => handleInputChange('endAge', value as number)}

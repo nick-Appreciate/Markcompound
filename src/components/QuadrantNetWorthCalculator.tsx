@@ -344,7 +344,7 @@ const QuadrantNetWorthCalculator: React.FC = () => {
                 <Slider
                   size="small"
                   value={quadrant.inputs.endAge}
-                  min={quadrant.inputs.startAge + 1}
+                  min={quadrant.inputs.startAge}
                   max={80}
                   step={1}
                   onChange={(_, value) => handleInputChange(index, 'endAge', value as number)}
